@@ -6,7 +6,7 @@ import React from 'react'
 
 export const GetInTouch = () => {
   return (
-         <section className="w-full bg-primary py-12 lg:py-32 px-4 xl:px-0">
+         <section id="contact" className="w-full bg-primary py-12 lg:py-32 px-4 xl:px-0">
             <Container>
                 <div className='relative mb-9'>
                 <h1 className='text-3xl lg:text-4xl xl:text-6xl font-semibold text-white '>

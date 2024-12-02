@@ -35,7 +35,7 @@ export default function Nav() {
               <Link href="/work" className="text-zinc-500 lg:text-lg hover:text-primary transition-all">
                 Our Work
               </Link>
-              <Link href="/contact" className="text-zinc-500 lg:text-lg hover:text-primary transition-all">
+              <Link href="#contact" className="text-zinc-500 lg:text-lg hover:text-primary transition-all">
                 Contact us
               </Link>
             </div>
@@ -86,7 +86,7 @@ export default function Nav() {
                 Our Work
               </Link>
               <Link
-                href="/contact"
+                href="#contact"
                 className="text-dark text-xl py-3 hover:text-amber-200"
                 onClick={() => setIsOpen(false)}
               >

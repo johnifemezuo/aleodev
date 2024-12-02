@@ -9,7 +9,7 @@ import { OurPhilosophy } from "@/Components/Modules/ServicePage/OurPhilosophy";
 
 export default function ServicesPage() {
   return (
-    <PageWrapper
+    <PageWrapper title="Aleodev: Our Services"
     >
       <ServiceHero />
 

@@ -6,7 +6,7 @@ import { IndustrySection } from "@/Components/Modules/WorkPage/IndustrySection";
 
 export default function WorkPage() {
   return (
-    <PageWrapper>
+    <PageWrapper title="Aleodev: Works & Projects">
       <WorkHero />
 
       <IndustrySection />

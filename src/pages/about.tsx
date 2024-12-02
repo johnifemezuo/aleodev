@@ -10,7 +10,7 @@ import { GetInTouch } from "@/Components/Modules/Homepage/GetInTouch";
 
 export default function AboutUs() {
   return (
-    <PageWrapper>
+    <PageWrapper title="Aleodev: About Us">
       
     <AboutHero />
 

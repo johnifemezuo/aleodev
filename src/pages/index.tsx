@@ -10,7 +10,7 @@ import PageWrapper from "./PageWrapper";
 
 export default function Home() {
   return (
-    <PageWrapper>
+    <PageWrapper title="Aleodev: Web Agency for all your need">
 
       <main>
         <HeroSection />
