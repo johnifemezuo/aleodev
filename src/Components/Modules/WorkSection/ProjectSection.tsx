@@ -7,7 +7,7 @@ import Link from "next/link";
 const ProjectSection = () => {
   return (
     <div className="py-20 lg:py-44 px-4 lg:px-0 relative">
-      <h1 className="lg:text-[150px] text-7xl mx-auto  w-[450px] xl:text-[220px] inset-x-0 z-0 absolute top-20  font-semibold text-[#E4E4E4] text-center">OUR WORK</h1>
+      <h1 className="lg:text-[150px] text-7xl mx-auto lg:w-auto w-[450px] xl:text-[220px] inset-x-0 z-0 absolute top-20  font-semibold text-[#E4E4E4] text-center">OUR WORK</h1>
       <Container>
         <div className="space-y-6 lg:space-y-20 relative">
           <div className="text-center lg:w-[600px]  mx-auto space-y-4 lg:space-y-5">

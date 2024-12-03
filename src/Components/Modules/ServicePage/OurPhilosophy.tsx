@@ -1,5 +1,4 @@
 import { Container } from '@/Components/Container/Container'
-import Para from '@/Components/Elements/Para'
 import Title from '@/Components/Elements/Title'
 import Image from 'next/image'
 import React from 'react'
@@ -15,7 +14,7 @@ const SecCard = ({title, description, image}:{title: string; description?: strin
 
             <h1 className='text-lg lg:text-xl font-bold max-w-[220px]'>{title}</h1>
 
-            <Para>{description}</Para>
+            <p className="text-sm lg:text-base text-dark">{description}</p>
             </div>
 
         </div>
