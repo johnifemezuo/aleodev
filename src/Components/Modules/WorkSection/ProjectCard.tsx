@@ -1,4 +1,4 @@
-import { ButtonOutline } from "@/Components/UI/Button/ButtonOutline";
+import { ButtonOutline } from "@/components/UI/Button/ButtonOutline";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -24,11 +24,14 @@ export const ProjectCard = ({
       </div>
 
       <div className="p-4 lg:p-6 bg-white space-y-6">
-        <Link href={link} className="text-xl lg:text-3xl hover:underline hover:text-primary transition-all">
+        <Link
+          href={link}
+          className="text-xl lg:text-3xl hover:underline hover:text-primary transition-all"
+        >
           {title}
         </Link>
 
-       <ButtonOutline text="view site" link="#" />
+        <ButtonOutline text="view site" link="#" />
       </div>
     </div>
   );

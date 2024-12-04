@@ -1,30 +1,25 @@
-import { AboutHero } from "@/Components/Modules/AboutPage/AboutHero";
+import { AboutHero } from "@/components/Modules/AboutPage/AboutHero";
+import { AboutSection } from "@/components/Modules/AboutPage/AboutSection";
+import HowWeStarted from "@/components/Modules/AboutPage/HowWeStarted";
+import TeamSection from "@/components/Modules/AboutPage/MeetTheTeam";
+import { GetInTouch } from "@/components/Modules/Homepage/GetInTouch";
+import { TestimonialSection } from "@/components/Modules/Homepage/TestimonialSection";
 import PageWrapper from "./PageWrapper";
-import { AboutSection } from "@/Components/Modules/AboutPage/AboutSection";
-import TeamSection from "@/Components/Modules/AboutPage/MeetTheTeam";
-import HowWeStarted from "@/Components/Modules/AboutPage/HowWeStarted";
-import { TestimonialSection } from "@/Components/Modules/Homepage/TestimonialSection";
-import { GetInTouch } from "@/Components/Modules/Homepage/GetInTouch";
-
-
 
 export default function AboutUs() {
   return (
     <PageWrapper title="Aleodev: About Us">
-      
-    <AboutHero />
+      <AboutHero />
 
-    <AboutSection />
+      <AboutSection />
 
-    <TeamSection />
+      <TeamSection />
 
-    <HowWeStarted />
+      <HowWeStarted />
 
-    <TestimonialSection />
+      <TestimonialSection />
 
-    <GetInTouch />
-
+      <GetInTouch />
     </PageWrapper>
-
   );
 }

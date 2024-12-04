@@ -1,19 +1,14 @@
-import { Container } from '@/Components/Container/Container'
-import Image from 'next/image'
-import React from 'react'
+import { Container } from "@/components/Container/Container";
+import Image from "next/image";
 
 export const AboutHero = () => {
   return (
     <div className="bg-dark w-full h-screen lg:h-screen overflow-hidden">
       <Container>
         <div className="space-y-4 px-6 lg:px-0 relative z-20 py-40 md:py-44 lg:py-52 max-w-[850px] mx-auto flex flex-col justify-center items-center">
-
-          <h4 className="text-base lg:text-lg text-white">
-           About Us
-          </h4>
+          <h4 className="text-base lg:text-lg text-white">About Us</h4>
 
           <div className="text-center relative space-y-8 lg:space-y-12 flex flex-col justify-center items-center">
-         
             <h1 className=" syne-font-bold text-4xl sm:text-5xl md:text-5xl lg:text-6xl xl:text-7xl font-bold">
               <span className="text-primary">Excellent</span>
               <span className="text-white">A result-driven,</span>
@@ -26,7 +21,6 @@ export const AboutHero = () => {
               helped hundreds of businesses achieve success online. Find out
               what we can do for you.
             </p>
-
           </div>
         </div>
       </Container>
@@ -46,5 +40,5 @@ export const AboutHero = () => {
         height={700}
       />
     </div>
-  )
-}
+  );
+};

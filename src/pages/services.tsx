@@ -1,16 +1,14 @@
-import { ServiceHero } from "@/Components/Modules/ServicePage/ServiceHero";
+import { GetInTouch } from "@/components/Modules/Homepage/GetInTouch";
+import { WhyWorkWIthUs } from "@/components/Modules/Homepage/WhyWorkWIthUs";
+import AllServicesSection from "@/components/Modules/ServicePage/AllServicesSection";
+import { OurPhilosophy } from "@/components/Modules/ServicePage/OurPhilosophy";
+import { ServiceHero } from "@/components/Modules/ServicePage/ServiceHero";
+import { ServiceSample } from "@/components/Modules/ServicePage/ServiceSample";
 import PageWrapper from "./PageWrapper";
-import AllServicesSection from "@/Components/Modules/ServicePage/AllServicesSection";
-import { WhyWorkWIthUs } from "@/Components/Modules/Homepage/WhyWorkWIthUs";
-import { ServiceSample } from "@/Components/Modules/ServicePage/ServiceSample";
-import { GetInTouch } from "@/Components/Modules/Homepage/GetInTouch";
-import { OurPhilosophy } from "@/Components/Modules/ServicePage/OurPhilosophy";
-
 
 export default function ServicesPage() {
   return (
-    <PageWrapper title="Aleodev: Our Services"
-    >
+    <PageWrapper title="Aleodev: Our Services">
       <ServiceHero />
 
       <AllServicesSection />

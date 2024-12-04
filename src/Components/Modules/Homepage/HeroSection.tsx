@@ -1,7 +1,7 @@
-import { Appear } from "@/Components/Animations/Appear";
-import Reveal from "@/Components/Animations/Reveal";
-import { Container } from "@/Components/Container/Container";
-import { Button } from "@/Components/UI/Button/Button";
+import { Appear } from "@/components/Animations/Appear";
+import Reveal from "@/components/Animations/Reveal";
+import { Container } from "@/components/Container/Container";
+import { Button } from "@/components/UI/Button/Button";
 import Image from "next/image";
 
 export const HeroSection = () => {

@@ -1,6 +1,6 @@
-import { Appear } from "@/Components/Animations/Appear";
-import Reveal from "@/Components/Animations/Reveal";
-import { Container } from "@/Components/Container/Container";
+import { Appear } from "@/components/Animations/Appear";
+import Reveal from "@/components/Animations/Reveal";
+import { Container } from "@/components/Container/Container";
 import { motion } from "framer-motion";
 import Image from "next/image";
 
@@ -37,7 +37,6 @@ export const ServiceHero = () => {
             </Reveal>
 
             <div className=" relative space-y-8 lg:space-y-12 flex flex-col justify-center items-center">
-            
               <Reveal delay={0.6}>
                 <h1 className=" syne-font-bold text-4xl sm:text-5xl md:text-5xl lg:text-6xl xl:text-6xl font-bold">
                   <span className="text-primary">Award winning</span>{" "}

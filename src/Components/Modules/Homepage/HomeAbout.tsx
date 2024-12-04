@@ -1,8 +1,8 @@
-import { ScrollReveal } from "@/Components/Animations/ScrollReveal";
-import { Container } from "@/Components/Container/Container";
-import SubTitle from "@/Components/Elements/SubTitle";
-import Title from "@/Components/Elements/Title";
-import ServiceCard from "@/Components/UI/Cards/ServicesCard";
+import { ScrollReveal } from "@/components/Animations/ScrollReveal";
+import { Container } from "@/components/Container/Container";
+import SubTitle from "@/components/Elements/SubTitle";
+import Title from "@/components/Elements/Title";
+import ServiceCard from "@/components/UI/Cards/ServicesCard";
 import Image from "next/image";
 
 export const HomeAbout = () => {

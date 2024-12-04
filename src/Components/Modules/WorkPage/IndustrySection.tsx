@@ -1,8 +1,8 @@
-import { ScrollReveal } from "@/Components/Animations/ScrollReveal";
-import { Container } from "@/Components/Container/Container";
-import Para from "@/Components/Elements/Para";
-import SubTitle from "@/Components/Elements/SubTitle";
-import Title from "@/Components/Elements/Title";
+import { ScrollReveal } from "@/components/Animations/ScrollReveal";
+import { Container } from "@/components/Container/Container";
+import Para from "@/components/Elements/Para";
+import SubTitle from "@/components/Elements/SubTitle";
+import Title from "@/components/Elements/Title";
 
 export const IndustrySection = () => {
   return (

@@ -1,6 +1,6 @@
-import SubTitle from '@/Components/Elements/SubTitle'
-import Title from '@/Components/Elements/Title'
-import { ArrowUpRight, Users, Star, Rocket, Award, Target } from 'lucide-react'
+import SubTitle from "@/components/Elements/SubTitle";
+import Title from "@/components/Elements/Title";
+import { ArrowUpRight, Award, Rocket, Star, Target, Users } from "lucide-react";
 
 export default function HowWeStarted() {
   return (
@@ -23,7 +23,10 @@ export default function HowWeStarted() {
               </div>
               <div>
                 <h4 className="text-xl font-semibold mb-2">Founded in 2011</h4>
-                <p className="text-gray-400">Founded in 2011 Yes, we have been in business for over 10 solid years.</p>
+                <p className="text-gray-400">
+                  Founded in 2011 Yes, we have been in business for over 10
+                  solid years.
+                </p>
               </div>
             </div>
 
@@ -35,7 +38,9 @@ export default function HowWeStarted() {
               </div>
               <div>
                 <h4 className="text-xl font-semibold mb-2">Team of 5 People</h4>
-                <p className="text-gray-400">Full-time, and ready to help your business grow.</p>
+                <p className="text-gray-400">
+                  Full-time, and ready to help your business grow.
+                </p>
               </div>
             </div>
 
@@ -46,8 +51,12 @@ export default function HowWeStarted() {
                 </div>
               </div>
               <div>
-                <h4 className="text-xl font-semibold mb-2">4.8/5 rating on Google</h4>
-                <p className="text-gray-400">Based on over 90 reviews by clients and fans.</p>
+                <h4 className="text-xl font-semibold mb-2">
+                  4.8/5 rating on Google
+                </h4>
+                <p className="text-gray-400">
+                  Based on over 90 reviews by clients and fans.
+                </p>
               </div>
             </div>
 
@@ -58,8 +67,13 @@ export default function HowWeStarted() {
                 </div>
               </div>
               <div>
-                <h4 className="text-xl font-semibold mb-2">Over 450 projects</h4>
-                <p className="text-gray-400">Comprising web design, digital marketing and branding services.</p>
+                <h4 className="text-xl font-semibold mb-2">
+                  Over 450 projects
+                </h4>
+                <p className="text-gray-400">
+                  Comprising web design, digital marketing and branding
+                  services.
+                </p>
               </div>
             </div>
 
@@ -70,8 +84,12 @@ export default function HowWeStarted() {
                 </div>
               </div>
               <div>
-                <h4 className="text-xl font-semibold mb-2">Certified Personnel</h4>
-                <p className="text-gray-400">Work with marketers certified by Google, Hubspot and CIW.</p>
+                <h4 className="text-xl font-semibold mb-2">
+                  Certified Personnel
+                </h4>
+                <p className="text-gray-400">
+                  Work with marketers certified by Google, Hubspot and CIW.
+                </p>
               </div>
             </div>
 
@@ -83,13 +101,14 @@ export default function HowWeStarted() {
               </div>
               <div>
                 <h4 className="text-xl font-semibold mb-2">Our Philosophy</h4>
-                <p className="text-gray-400">The only thing that matters is result.</p>
+                <p className="text-gray-400">
+                  The only thing that matters is result.
+                </p>
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
-  )
+  );
 }
-

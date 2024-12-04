@@ -1,6 +1,6 @@
-import { Appear } from "@/Components/Animations/Appear";
-import Reveal from "@/Components/Animations/Reveal";
-import { Container } from "@/Components/Container/Container";
+import { Appear } from "@/components/Animations/Appear";
+import Reveal from "@/components/Animations/Reveal";
+import { Container } from "@/components/Container/Container";
 import Image from "next/image";
 
 export const WorkHero = () => {
@@ -30,7 +30,9 @@ export const WorkHero = () => {
             </Appear>
 
             <Reveal delay={0.6}>
-              <h4 className="text-lg lg:text-xl text-white/70 pb-8">Our Work</h4>
+              <h4 className="text-lg lg:text-xl text-white/70 pb-8">
+                Our Work
+              </h4>
 
               <div className=" relative space-y-5 lg:space-y-7 flex flex-col justify-center items-center">
                 <h1 className=" syne-font-bold text-4xl sm:text-5xl md:text-5xl lg:text-6xl xl:text-6xl font-bold">

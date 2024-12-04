@@ -1,14 +1,14 @@
-import { Container } from "@/Components/Container/Container";
+import { Container } from "@/components/Container/Container";
 // import { ITestimonial } from "../../../../base/testimonial";
-import SubTitle from "@/Components/Elements/SubTitle";
-import Title from "@/Components/Elements/Title";
-import EmblaCarousel from "@/Components/Carousel/EmblaCarousel";
-import { EmblaOptionsType } from 'embla-carousel'
+import EmblaCarousel from "@/components/Carousel/EmblaCarousel";
+import SubTitle from "@/components/Elements/SubTitle";
+import Title from "@/components/Elements/Title";
+import { EmblaOptionsType } from "embla-carousel";
 
 export const TestimonialSection = () => {
-  const OPTIONS: EmblaOptionsType = { loop: true }
-  const SLIDE_COUNT = 5
-const SLIDES = Array.from(Array(SLIDE_COUNT).keys())
+  const OPTIONS: EmblaOptionsType = { loop: true };
+  const SLIDE_COUNT = 5;
+  const SLIDES = Array.from(Array(SLIDE_COUNT).keys());
 
   // const testimonials: ITestimonial[] = [
   //   {
@@ -35,12 +35,14 @@ const SLIDES = Array.from(Array(SLIDE_COUNT).keys())
     <div className="w-full bg-white py-12 lg:py-32 overflow-hidden">
       <Container>
         <div>
-           <div className="text-center space-y-3">
-           <SubTitle>testimonials</SubTitle>
-           <Title>What Our <span className="text-primary">Clients</span> Say</Title>
-           </div>
+          <div className="text-center space-y-3">
+            <SubTitle>testimonials</SubTitle>
+            <Title>
+              What Our <span className="text-primary">Clients</span> Say
+            </Title>
+          </div>
 
-           <EmblaCarousel slides={SLIDES} options={OPTIONS} />
+          <EmblaCarousel slides={SLIDES} options={OPTIONS} />
           {/* <TestimonialSlider testimonials={testimonials} /> */}
         </div>
       </Container>

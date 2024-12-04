@@ -1,8 +1,8 @@
-import { GetInTouch } from "@/Components/Modules/Homepage/GetInTouch";
-import ProjectSection from "@/Components/Modules/WorkSection/ProjectSection";
+import { GetInTouch } from "@/components/Modules/Homepage/GetInTouch";
+import { IndustrySection } from "@/components/Modules/WorkPage/IndustrySection";
+import { WorkHero } from "@/components/Modules/WorkPage/WorkHero";
+import ProjectSection from "@/components/Modules/WorkSection/ProjectSection";
 import PageWrapper from "./PageWrapper";
-import { WorkHero } from "@/Components/Modules/WorkPage/WorkHero";
-import { IndustrySection } from "@/Components/Modules/WorkPage/IndustrySection";
 
 export default function WorkPage() {
   return (

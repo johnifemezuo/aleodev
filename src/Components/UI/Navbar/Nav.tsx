@@ -1,4 +1,4 @@
-import { Container } from "@/Components/Container/Container";
+import { Container } from "@/components/Container/Container";
 import { AnimatePresence, motion } from "framer-motion";
 import { Menu } from "lucide-react";
 import Image from "next/image";
