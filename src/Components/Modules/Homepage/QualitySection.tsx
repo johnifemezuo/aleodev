@@ -1,3 +1,4 @@
+import { ScrollReveal } from "@/Components/Animations/ScrollReveal";
 import { Container } from "@/Components/Container/Container";
 import Para from "@/Components/Elements/Para";
 import SubTitle from "@/Components/Elements/SubTitle";
@@ -9,6 +10,7 @@ export const QualitySection = () => {
     <div className="bg-white py-12 lg:py-28 px-4 lg:px-0">
       <Container>
         <div className="grid lg:grid-cols-2   lg:space-x-8">
+        <ScrollReveal hidden={{ x: 100 }}  visible={{ x: 0 }}>
           <div className="space-y-5 lg:space-y-7 ">
             <SubTitle>quality first approach</SubTitle>
 
@@ -25,7 +27,9 @@ export const QualitySection = () => {
               through our services
             </Para>
           </div>
+          </ScrollReveal>
 
+          <ScrollReveal hidden={{ x: -100 }} visible={{ x: 0 }}>
           <div className="relative w-full  mt-8 lg:mt-0">
             <Image
               width={800}
@@ -35,6 +39,8 @@ export const QualitySection = () => {
               className="h-full w-full object-cover"
             />
           </div>
+          </ScrollReveal>
+
         </div>
       </Container>
     </div>

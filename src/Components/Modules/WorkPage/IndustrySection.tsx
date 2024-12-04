@@ -1,3 +1,4 @@
+import { ScrollReveal } from "@/Components/Animations/ScrollReveal";
 import { Container } from "@/Components/Container/Container";
 import Para from "@/Components/Elements/Para";
 import SubTitle from "@/Components/Elements/SubTitle";
@@ -13,16 +14,18 @@ export const IndustrySection = () => {
             <Title>We are fueled by our clients’  success.</Title>
           </div>
 
-          <div className="grid grid-cols-2  gap-4">
-            <Para>Finance</Para>
-            <Para>Oil & Gas</Para>
-            <Para>Logistics</Para>
-            <Para>E-Commerce</Para>
-            <Para>Hospitality</Para>
-            <Para>Healthcare</Para>
-            <Para>Technology</Para>
-            <Para>Legal</Para>
-          </div>
+          <ScrollReveal hidden={{ x: 100 }} visible={{ x: 0 }}>
+            <div className="grid grid-cols-2  gap-4">
+              <Para>Finance</Para>
+              <Para>Oil & Gas</Para>
+              <Para>Logistics</Para>
+              <Para>E-Commerce</Para>
+              <Para>Hospitality</Para>
+              <Para>Healthcare</Para>
+              <Para>Technology</Para>
+              <Para>Legal</Para>
+            </div>
+          </ScrollReveal>
         </div>
       </Container>
     </div>

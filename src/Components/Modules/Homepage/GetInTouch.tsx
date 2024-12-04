@@ -1,3 +1,4 @@
+import { ScrollReveal } from '@/Components/Animations/ScrollReveal'
 import { Container } from '@/Components/Container/Container'
 import { Button } from '@/Components/UI/Button/Button'
 import Image from 'next/image'
@@ -28,7 +29,7 @@ export const GetInTouch = () => {
           />
         </div>
 
-
+        <ScrollReveal hidden={{ y: -100 }} visible={{ y: 0 }}>
         <div className="space-y-6 px-4 py-6  lg:p-8">
           <div className="space-y-4">
             <p className="text-sm font-semibold uppercase tracking-wider text-muted-foreground">
@@ -64,6 +65,7 @@ export const GetInTouch = () => {
             </Link>
           </p>
         </div>
+        </ScrollReveal>
       </div>
       </Container>
     </section>

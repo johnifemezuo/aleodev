@@ -1,3 +1,4 @@
+import { ScrollReveal } from '@/Components/Animations/ScrollReveal'
 import { Container } from '@/Components/Container/Container'
 import Title from '@/Components/Elements/Title'
 import Image from 'next/image'
@@ -26,16 +27,21 @@ export const OurPhilosophy = () => {
     <div className='py-20 lg:py-32 bg-dark w-full relative overflow-hidden '>
         <Container>
             <div className='space-y-9 relative z-30 px-4 xl:px-0'>
+            <ScrollReveal hidden={{ y: 100 }}  visible={{ y: 0 }}>
                 <div className='space-y-5  text-white xl:w-[700px]'>
                 <h3 className='uppercase text-zinc-300 text-sm lg:text-base font-medium'>OUR PHILOSOPHY</h3>
                 <Title>We creatively change the way people see things</Title>
                 </div>
+            </ScrollReveal>
 
+            <ScrollReveal hidden={{ y: 100 }} delay={0.6} visible={{ y: 0 }}>
                 <div className='grid lg:gap-6 grid-cols md:grid-cols-2 xl:grid-cols-3 gap-5 '>
                     <SecCard image="painIcon.svg" description="Researching, brainstorming and conceptualizing on how best to bring ideas and visions to life." title={"CREATE"} />
                     <SecCard image="painIcon.svg" description="Tapping into the collective aptitude of our creative team in the actual visual execution of projects." title={"DESIGN"} />
                     <SecCard image="painIcon.svg" description="Making the necessary additions and improvisations to surpass expectations on what is, and what can be." title={"DEVELOP"} />
                 </div>
+            </ScrollReveal>
+
             </div>
         </Container>
 
