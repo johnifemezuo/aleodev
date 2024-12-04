@@ -8,7 +8,7 @@ import PageWrapper from "./PageWrapper";
 
 export default function AboutUs() {
   return (
-    <PageWrapper title="Aleodev: About Us">
+    <PageWrapper title="Aleodev: About Aleodev">
       <AboutHero />
 
       <AboutSection />
