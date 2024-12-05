@@ -6,7 +6,7 @@ import Image from "next/image";
 
 const SecCard = ({ text }: { text?: string }) => {
   return (
-    <div className="rounded-xl max-w-[300px] bg-white p-5 relative ">
+    <div className="rounded-xl w-full bg-white p-5 relative ">
       <h1 className="text-lg lg:text-xl font-bold max-w-[220px]">{text}</h1>
 
       <span className="bg-primary p-4 w-5 h-6 rounded-full grid place-content-center absolute top-4 right-4">
