@@ -4,7 +4,7 @@
   --background: #ffffff;
   --foreground: #171717;
   --dark: #15110c;
-  --primary: #AD7D36;
+  --primary: #ad7d36;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -12,15 +12,17 @@
     --background: #f3f2f1;
     --foreground: #15110c;
     --dark: #15110c;
-    --primary: #AD7D36;
+    --primary: #ad7d36;
   }
 }
 
 .gradient-round {
-  /* Ellipse 4 */
-background: radial-gradient(50% 50% at 50% 50%, rgba(31, 33, 34, 0.337) 0%, #15110c 90%);
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    rgba(31, 33, 34, 0.337) 0%,
+    #15110c 90%
+  );
 }
-
 
 .syne-font-bold {
   font-family: "Syne", sans-serif;
@@ -40,17 +42,18 @@ body {
   scroll-behavior: smooth;
 }
 
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-
 @layer components {
   .sub-title {
-    @apply uppercase text-zinc-600 text-sm lg:text-base
+    @apply uppercase text-zinc-600 text-sm lg:text-base;
   }
   .para {
-    @apply  text-zinc-700 text-sm lg:text-lg xl:text-xl
+    @apply text-zinc-700 text-sm lg:text-lg xl:text-xl;
+  }
+  .flex-center {
+    @apply items-center flex;
   }
 }
