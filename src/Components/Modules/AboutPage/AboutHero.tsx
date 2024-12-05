@@ -13,7 +13,7 @@ export const AboutHero = () => {
               <span className="text-white">A result-driven,</span>
               <span className="text-primary">fun-loving</span>
               <span className="text-white">digital agency</span>
-            </h1>
+            </h1> 
 
             <p className="text-white text-base lg:text-xl">
               As one of the leading web design companies in Kenya, we have
