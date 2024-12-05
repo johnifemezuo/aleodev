@@ -1,6 +1,6 @@
+import { ArrowUpRight, Award, Rocket, Star, Target, Users } from "lucide-react";
 import SubTitle from "../../Elements/SubTitle";
 import Title from "../../Elements/Title";
-import { ArrowUpRight, Award, Rocket, Star, Target, Users } from "lucide-react";
 
 export default function HowWeStarted() {
   return (
