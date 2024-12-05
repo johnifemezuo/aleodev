@@ -1,5 +1,5 @@
 // TestimonialSlider.js
-import { ArrowRight } from "@/components/Icons/ArrowRight";
+import { ArrowRight } from "../../Icons/ArrowRight";
 import { ITestimonial } from "../../../../base/testimonial";
 import TestimonialCard from "./TestimonialCard";
 

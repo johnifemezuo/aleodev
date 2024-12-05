@@ -1,4 +1,4 @@
-import { ArrowRight } from "@/components/Icons/ArrowRight";
+import { ArrowRight } from "../../Icons/ArrowRight";
 import { motion } from "framer-motion";
 import React from "react";
 

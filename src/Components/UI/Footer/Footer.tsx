@@ -1,7 +1,7 @@
-import { Container } from "@/components/Container/Container";
-import { ArrowRight } from "@/components/Icons/ArrowRight";
-import { EmailIcon } from "@/components/Icons/EmailIcon";
-import { PhoneIcon } from "@/components/Icons/PhoneIcon";
+import { Container } from "../../Container/Container";
+import { ArrowRight } from "../../Icons/ArrowRight";
+import { EmailIcon } from "../../Icons/EmailIcon";
+import { PhoneIcon } from "../../Icons/PhoneIcon";
 import { Facebook, Instagram, Linkedin, Twitter } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";

@@ -1,6 +1,6 @@
-import { Appear } from "@/components/Animations/Appear";
-import Reveal from "@/components/Animations/Reveal";
-import { Container } from "@/components/Container/Container";
+import { Appear } from "../../Animations/Appear";
+import Reveal from "../../Animations/Reveal";
+import { Container } from "../../Container/Container";
 import { motion } from "framer-motion";
 import Image from "next/image";
 

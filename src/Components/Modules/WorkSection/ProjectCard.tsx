@@ -1,4 +1,4 @@
-import { ButtonOutline } from "@/components/UI/Button/ButtonOutline";
+import { ButtonOutline } from "../../UI/Button/ButtonOutline";
 import Image from "next/image";
 import Link from "next/link";
 
