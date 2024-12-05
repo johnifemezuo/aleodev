@@ -25,7 +25,7 @@ export const Footer = () => {
 
             <p className="text-gray-300 text-sm leading-relaxed">
               Aleodev is a Lagos-based website design agency serving clients
-              within and outside of Africa. After 13 years and over 450
+              within and outside of Africa. After 13 years and over 4502
               projects, we are proud of our reputation for excellence, client
               service and success.
             </p>
