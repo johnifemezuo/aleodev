@@ -1,8 +1,8 @@
-import { Container } from "@/components/Container/Container";
+import { Container } from "../../Container/Container";
 // import { ITestimonial } from "../../../../base/testimonial";
-import EmblaCarousel from "@/components/Carousel/EmblaCarousel";
-import SubTitle from "@/components/Elements/SubTitle";
-import Title from "@/components/Elements/Title";
+import EmblaCarousel from "../../Carousel/EmblaCarousel";
+import SubTitle from "../../Elements/SubTitle";
+import Title from "../../Elements/Title";
 import { EmblaOptionsType } from "embla-carousel";
 
 export const TestimonialSection = () => {

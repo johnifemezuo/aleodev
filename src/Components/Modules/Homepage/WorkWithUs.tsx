@@ -1,7 +1,7 @@
-import { ScrollReveal } from "@/components/Animations/ScrollReveal";
-import { Container } from "@/components/Container/Container";
-import Title from "@/components/Elements/Title";
-import { ArrowRight } from "@/components/Icons/ArrowRight";
+import { ScrollReveal } from "../../Animations/ScrollReveal";
+import { Container } from "../../Container/Container";
+import Title from "../../Elements/Title";
+import { ArrowRight } from "../../Icons/ArrowRight";
 import Image from "next/image";
 
 const SecCard = ({ text }: { text?: string }) => {

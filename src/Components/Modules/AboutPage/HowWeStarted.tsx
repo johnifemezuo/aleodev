@@ -1,5 +1,5 @@
-import SubTitle from "@/components/Elements/SubTitle";
-import Title from "@/components/Elements/Title";
+import SubTitle from "../../Elements/SubTitle";
+import Title from "../../Elements/Title";
 import { ArrowUpRight, Award, Rocket, Star, Target, Users } from "lucide-react";
 
 export default function HowWeStarted() {

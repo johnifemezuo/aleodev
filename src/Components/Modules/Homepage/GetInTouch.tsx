@@ -1,6 +1,6 @@
-import { ScrollReveal } from "@/components/Animations/ScrollReveal";
-import { Container } from "@/components/Container/Container";
-import { Button } from "@/components/UI/Button/Button";
+import { ScrollReveal } from "../../Animations/ScrollReveal";
+import { Container } from "../../Container/Container";
+import { Button } from "../../UI/Button/Button";
 import Image from "next/image";
 import Link from "next/link";
 

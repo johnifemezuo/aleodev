@@ -1,7 +1,7 @@
-import { ScrollReveal } from "@/components/Animations/ScrollReveal";
-import { Container } from "@/components/Container/Container";
-import SubTitle from "@/components/Elements/SubTitle";
-import Title from "@/components/Elements/Title";
+import { ScrollReveal } from "../../Animations/ScrollReveal";
+import { Container } from "../../Container/Container";
+import SubTitle from "../../Elements/SubTitle";
+import Title from "../../Elements/Title";
 import Image from "next/image";
 
 export const WhyWorkWIthUs = () => {

@@ -1,7 +1,7 @@
-import { ScrollReveal } from "@/components/Animations/ScrollReveal";
-import { Container } from "@/components/Container/Container";
-import Title from "@/components/Elements/Title";
-import { CheckIcon } from "@/components/Icons/CheckIcon";
+import { ScrollReveal } from "../../Animations/ScrollReveal";
+import { Container } from "../../Container/Container";
+import Title from "../../Elements/Title";
+import { CheckIcon } from "../../Icons/CheckIcon";
 import { Globe, HeadphonesIcon, Paintbrush } from "lucide-react";
 
 export default function AllServicesSection() {
