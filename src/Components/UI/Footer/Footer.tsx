@@ -46,7 +46,7 @@ export const Footer = () => {
               <ul className="space-y-3">
                 <li>
                   <Link
-                    href="/services/branding"
+                    href="#"
                     className="text-gray-300 hover:text-primary"
                   >
                     Branding
@@ -54,7 +54,7 @@ export const Footer = () => {
                 </li>
                 <li>
                   <Link
-                    href="/services/web-design"
+                    href="#"
                     className="text-gray-300 hover:text-primary"
                   >
                     Website Design
@@ -62,7 +62,7 @@ export const Footer = () => {
                 </li>
                 <li>
                   <Link
-                    href="/services/seo"
+                    href="#"
                     className="text-gray-300 hover:text-primary"
                   >
                     Search Engine Optimization
@@ -70,10 +70,18 @@ export const Footer = () => {
                 </li>
                 <li>
                   <Link
-                    href="/services/ecommerce"
+                    href="#"
                     className="text-gray-300 hover:text-primary"
                   >
                     E-Commerce
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="#"
+                    className="text-gray-300 hover:text-primary"
+                  >
+                    Product design
                   </Link>
                 </li>
               </ul>
@@ -137,7 +145,7 @@ export const Footer = () => {
                     href="mailto:admin@aleodev.agency"
                     className="text-gray-300 hover:text-primary"
                   >
-                    admin@aleodev.agency
+                    support@aleodev.agency
                   </a>
                 </li>
               </ul>
