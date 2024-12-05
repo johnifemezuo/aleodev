@@ -12,7 +12,7 @@ export default function ServiceCard({
   description,
   imageSrc,
   buttonText,
-}: ServiceCardProps) {
+}: Readonly<ServiceCardProps>) {
   return (
     <div className="rounded-3xl bg-white p-8 shadow-sm">
       <div className="flex lg:flex-row flex-col  lg:space-x-8 space-y-4 lg:space-y-0">

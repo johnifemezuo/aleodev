@@ -1,6 +1,7 @@
+/* eslint-disable @next/next/no-page-custom-font */
 import Head from "next/head";
 
-export default function PageWrapper({children, title}:{children: React.ReactNode; title?: string}) {
+export default function PageWrapper({children, title}:Readonly<{children: React.ReactNode; title?: string}>) {
     return (
       <>
         <Head>
