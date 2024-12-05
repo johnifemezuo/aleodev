@@ -1,9 +1,8 @@
-import { Container } from "../../Container/Container";
 import Image from "next/image";
 
 export const AboutSection = () => {
   return (
-    <Container className="bg-white -mt-[350px] lg:-mt-[190px] rounded-2xl relative overflow-hidden">
+    <div className="bg-white max-w-[1200px] mx-auto -mt-[350px] lg:-mt-[190px] rounded-2xl relative overflow-hidden">
       <div className="flex flex-col md:flex-row items-center gap-8 ">
         <div className="w-full md:w-1/2">
           <div className="relative w-full aspect-square lg:w-[500px] mx-auto">
@@ -35,6 +34,6 @@ export const AboutSection = () => {
           </div>
         </div>
       </div>
-    </Container>
+    </div>
   );
 };
