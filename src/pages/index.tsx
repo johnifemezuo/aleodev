@@ -1,4 +1,4 @@
-import { GetInTouch } from "../components/Modules/Homepage/GetInTouch";
+import { GetInTouch } from "@/components/Modules/Homepage/GetInTouch";
 import { HeroSection } from "../components/Modules/Homepage/HeroSection";
 import { HomeAbout } from "../components/Modules/Homepage/HomeAbout";
 import { QualitySection } from "../components/Modules/Homepage/QualitySection";
