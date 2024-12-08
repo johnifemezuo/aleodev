@@ -12,7 +12,7 @@ export const Footer = () => {
       <Container>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-12">
           {/* Logo and Description */}
-          <div className="space-y-6 w-[400px]">
+          <div className="space-y-6 sm:w-[400px]">
             <Link href="/" className="text-3xl font-bold">
               <Image
                 src="/images/logo-white.png"
@@ -23,7 +23,7 @@ export const Footer = () => {
               />
             </Link>
 
-            <p className="text-gray-300 text-sm leading-relaxed">
+            <p className="text-gray-300 text-sm w-full">
               Aleodev is a Lagos-based website design agency serving clients
               within and outside of Africa. After 13 years and over 4502
               projects, we are proud of our reputation for excellence, client
