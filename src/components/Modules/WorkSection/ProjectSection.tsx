@@ -9,7 +9,7 @@ const ProjectSection = () => {
   return (
     <div className="py-20 lg:py-44 px-4 lg:px-0 relative">
       <ScrollReveal hidden={{ x: -300 }} duration={2} visible={{ x: 0 }}>
-        <h1 className="lg:text-[150px] text-7xl mx-auto lg:w-auto w-[450px] xl:text-[220px] z-0   font-semibold text-[#E4E4E4] text-center">
+        <h1 className="lg:text-[150px] text-7xl mx-auto lg:w-auto w-[250px] xl:text-[220px] z-0   font-semibold text-[#E4E4E4] text-center">
           OUR WORK
         </h1>
       </ScrollReveal>
