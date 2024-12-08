@@ -11,11 +11,10 @@ export const Footer = () => {
     <footer className="bg-[#1A1A1A] text-white py-16 px-6">
       <Container>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-12">
-          {/* Logo and Description */}
-          <div className="space-y-6 sm:w-[400px]">
+          <div className="space-y-6 :w-[400px]">
             <Link href="/" className="text-3xl font-bold">
               <Image
-                src="/images/logo-white.png"
+                src="/logo-white.png"
                 alt=""
                 width={200}
                 height={200}

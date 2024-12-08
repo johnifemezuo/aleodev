@@ -55,7 +55,7 @@ export const HomeAbout = () => {
           </div>
 
           <div className="lg:flex py-12 lg:py-32 lg:space-x-20 items-center space-y-5 lg:space-y-0">
-            <ScrollReveal hidden={{ x: -100 }} delay={0.5} visible={{ x: 0 }}>
+            <ScrollReveal hidden={{ y: -100 }} delay={0.5} visible={{ y: 0 }}>
               <div className="space-y-5">
                 <SubTitle>Who we are</SubTitle>
                 <Title>
@@ -66,7 +66,7 @@ export const HomeAbout = () => {
               </div>
             </ScrollReveal>
 
-            <ScrollReveal hidden={{ x: 100 }} delay={0.8} visible={{ x: 0 }}>
+            <ScrollReveal hidden={{ y: 100 }} delay={0.8} visible={{ y: 0 }}>
               <p className="text-base lg:text-xl">
                 As one of the leading web design companies in Kenya, we have
                 helped hundreds of businesses achieve success online. Find out

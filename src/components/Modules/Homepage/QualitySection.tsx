@@ -7,7 +7,7 @@ import Image from "next/image";
 
 export const QualitySection = () => {
   return (
-    <div className="bg-white py-12 lg:py-28 px-4 lg:px-0">
+    <div className="bg-white py-12 lg:py-28 px-4 lg:px-0 overflow-hidden">
       <Container>
         <div className="grid lg:grid-cols-2   lg:space-x-8">
           <ScrollReveal hidden={{ x: 100 }} visible={{ x: 0 }}>
