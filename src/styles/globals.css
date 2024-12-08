@@ -1,0 +1,59 @@
+@import "./embla.css";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --dark: #15110c;
+  --primary: #ad7d36;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #f3f2f1;
+    --foreground: #15110c;
+    --dark: #15110c;
+    --primary: #ad7d36;
+  }
+}
+
+.gradient-round {
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    rgba(31, 33, 34, 0.337) 0%,
+    #15110c 90%
+  );
+}
+
+.syne-font-bold {
+  font-family: "Syne", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Syne, Helvetica, sans-serif;
+  scroll-behavior: smooth;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .sub-title {
+    @apply uppercase text-zinc-600 text-sm lg:text-base;
+  }
+  .para {
+    @apply text-zinc-700 text-sm lg:text-lg xl:text-xl;
+  }
+  .flex-center {
+    @apply items-center flex;
+  }
+}
