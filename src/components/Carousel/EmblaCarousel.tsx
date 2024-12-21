@@ -16,7 +16,7 @@ type PropType = {
 };
 
 const EmblaCarousel: React.FC<PropType> = (props) => {
-  const { slides, options }:{ slides: any[], options?: EmblaOptionsType} = props;
+  const { slides, options }:any = props;
   const [emblaRef, emblaApi] = useEmblaCarousel(options);
 
   const { selectedIndex, scrollSnaps, onDotButtonClick } =

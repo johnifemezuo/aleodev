@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { Container } from "../../Container/Container";
 // import { ITestimonial } from "../../../../base/testimonial";
 import { EmblaOptionsType } from "embla-carousel";
@@ -45,9 +46,8 @@ export const TestimonialSection = () => {
           </div>
 
           <EmblaCarousel
-            slides={testimonials}
+            slides={testimonials as number[] | any}
             options={OPTIONS}
-            testimonials={testimonials}
           />
           {/* <TestimonialSlider testimonials={testimonials} /> */}
         </div>
