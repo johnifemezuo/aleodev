@@ -29,24 +29,24 @@ export const HeroSection = () => {
 
           <Reveal delay={0.4}>
             <div className="flex items-center space-x-3">
-              <span className="bg-white  rounded-full font-medium  px-3 py-2 text-black text-xs ">
+              <span className="bg-white/20 border-white/40 border  rounded-full font-medium  px-3 py-2 text-white text-xs ">
                 SASS
               </span>
-              <span className="bg-white rounded-full font-medium   px-3 py-2 text-black text-xs uppercase">
+              <span className="bg-white/20 border-white/40 border rounded-full font-medium   px-3 py-2 text-white text-xs uppercase">
                 Fintech
               </span>
-              <span className="bg-white rounded-full font-medium   px-3 py-2 text-black text-xs uppercase">
+              <span className="bg-white/20  rounded-full font-medium   px-3 py-2 text-white border-white/40 border text-xs uppercase">
                 Industries
               </span>
             </div>
           </Reveal>
 
-          <div className="text-center relative space-y-8 lg:space-y-12 flex flex-col justify-center items-center">
+          <div className="text-center relative space-y-8 lg:space-y-8 flex flex-col justify-center items-center">
             <Appear delay={0.8}>
               <Image
                 src="textSpark.svg"
                 alt=""
-                className="w-52 hidden lg:block lg:w-[70px] top-0 mx-auto absolute -left-12 lg:-left-12 xl:left-0 "
+                className="w-52 hidden lg:block lg:w-[70px] top-0 mx-auto absolute -left-12 -mt-6 lg:-left-12 xl:left-0 "
                 width={200}
                 height={200}
               />

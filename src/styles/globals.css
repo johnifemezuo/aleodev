@@ -57,3 +57,14 @@ body {
     @apply items-center flex;
   }
 }
+
+.reveal-content {
+  opacity: 0;
+  /* transform: translateY(50px); */
+  transition: opacity 0.5s, transform 0.5s;
+}
+
+.reveal-content.revealed {
+  opacity: 1;
+  /* transform: translateY(0); */
+}

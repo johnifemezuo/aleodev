@@ -29,31 +29,22 @@ const ProjectSection = () => {
           <ScrollReveal hidden={{ y: 100 }} visible={{ y: 0 }}>
             <div className="grid lg:grid-cols-2 gap-6 lg:gap-12 lg:mt-20">
               <ProjectCard
-                title="Revolutionizing Online Notarization Services with Secure, Remote Access and Digital Solutions."
+                title="Farmsmart : New Generation Ai Powered system"
                 link="/"
-                image="/images/ser-1.png"
+                image="/images/fmt.png"
               />
               <ProjectCard
-                title="Revolutionizing Online Notarization Services with Secure, Remote Access and Digital Solutions."
+                title="Revolutionizing Online Notarization Services with Secure, ."
                 link="/"
                 image="/images/ser-2.png"
               />
-              <ProjectCard
-                title="Revolutionizing Online Notarization Services with Secure, Remote Access and Digital Solutions."
-                link="/"
-                image="/images/ser-2.png"
-              />
-              <ProjectCard
-                title="Revolutionizing Online Notarization Services with Secure, Remote Access and Digital Solutions."
-                link="/"
-                image="/images/ser-1.png"
-              />
+           
             </div>
           </ScrollReveal>
 
           <div className="w-full text-center">
             <Link
-              href="/works"
+              href="/work"
               className="text-base lg:text-xl underline transition hover:text-primary mt-12"
             >
               See more of our work

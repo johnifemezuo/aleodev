@@ -12,7 +12,7 @@ const TestimonialSlider = ({
     <div className="py-12 w-[2000px] overflow-auto">
       <div className="flex items-center ">
         {testimonials.map((testimonial: ITestimonial, index: number) => (
-          <div key={index} className="px-4">
+          <div key={index} className="px-4 ">
             <TestimonialCard
               logo={`https://via.placeholder.com/150x50?text=${testimonial.logo}`}
               name={testimonial.name}

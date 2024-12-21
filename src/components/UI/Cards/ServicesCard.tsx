@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Button } from "../Button/Button";
 
 interface ServiceCardProps {
@@ -31,7 +32,9 @@ export default function ServiceCard({
           </div>
 
           {/* Button */}
+          <Link href="/work" className="inline-block">
           <Button>{buttonText}</Button>
+          </Link>
         </div>
       </div>
     </div>
