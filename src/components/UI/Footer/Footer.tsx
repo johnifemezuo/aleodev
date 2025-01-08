@@ -3,7 +3,6 @@ import { ArrowRight } from "../../Icons/ArrowRight";
 import { EmailIcon } from "../../Icons/EmailIcon";
 import { PhoneIcon } from "../../Icons/PhoneIcon";
 import { Facebook, Instagram, Linkedin, Twitter } from "lucide-react";
-import Image from "next/image";
 import Link from "next/link";
 
 export const Footer = () => {
@@ -21,10 +20,7 @@ export const Footer = () => {
             </Link>
 
             <p className="text-gray-300 text-sm w-full">
-              Aleodev is a Lagos-based website design agency serving clients
-              within and outside of Africa. After 13 years and over 4502
-              projects, we are proud of our reputation for excellence, client
-              service and success.
+            Aleodev LTD is a leading software development company headquartered in Kenya, dedicated to delivering world-class technological solutions to businesses and organizations around the globe. With innovation at the core of our operations, we pride ourselves on transforming complex challenges into powerful, user-friendly software that drives growth and success.
             </p>
             <button className="space-x-4 py-2 px-3 flex justify-items-center items-center rounded-full justify-center bg-transparent border hover:bg-primary/40 text-white">
               <span className="pl-2 text-lg">Get In touch with ush</span>
