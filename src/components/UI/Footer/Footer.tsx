@@ -1,9 +1,10 @@
-import { Facebook, Instagram, Linkedin, Twitter } from "lucide-react";
-import Link from "next/link";
 import { Container } from "../../Container/Container";
 import { ArrowRight } from "../../Icons/ArrowRight";
 import { EmailIcon } from "../../Icons/EmailIcon";
 import { PhoneIcon } from "../../Icons/PhoneIcon";
+import { Facebook, Instagram, Linkedin, Twitter } from "lucide-react";
+import Image from "next/image";
+import Link from "next/link";
 
 export const Footer = () => {
   return (
@@ -11,15 +12,18 @@ export const Footer = () => {
       <Container>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-12">
           <div className="space-y-6 :w-[400px]">
-            <img src="/images/logo-white.png" alt="Aleodev" className="w-[200px] h-auto" />
+            <Link href="/" className="text-3xl font-bold">
+              <Image
+                src="/images/aleodev-logo.png"
+                alt=""
+                width={200}
+                height={200}
+                className="w-[140px] lg:w-40"
+              />
+            </Link>
 
             <p className="text-gray-300 text-sm w-full">
-              Aleodev LTD is a leading software development company
-              headquartered in Kenya, dedicated to delivering world-class
-              technological solutions to businesses and organizations around the
-              globe. With innovation at the core of our operations, we pride
-              ourselves on transforming complex challenges into powerful,
-              user-friendly software that drives growth and success.
+            Aleodev LTD is a leading software development company headquartered in Kenya, dedicated to delivering world-class technological solutions to businesses and organizations around the globe. With innovation at the core of our operations, we pride ourselves on transforming complex challenges into powerful, user-friendly software that drives growth and success.
             </p>
             <button className="space-x-4 py-2 px-3 flex justify-items-center items-center rounded-full justify-center bg-transparent border hover:bg-primary/40 text-white">
               <span className="pl-2 text-lg">Get In touch with ush</span>
@@ -37,27 +41,42 @@ export const Footer = () => {
               </h3>
               <ul className="space-y-3">
                 <li>
-                  <Link href="#" className="text-gray-300 hover:text-primary">
+                  <Link
+                    href="#"
+                    className="text-gray-300 hover:text-primary"
+                  >
                     Branding
                   </Link>
                 </li>
                 <li>
-                  <Link href="#" className="text-gray-300 hover:text-primary">
+                  <Link
+                    href="#"
+                    className="text-gray-300 hover:text-primary"
+                  >
                     Website Design
                   </Link>
                 </li>
                 <li>
-                  <Link href="#" className="text-gray-300 hover:text-primary">
+                  <Link
+                    href="#"
+                    className="text-gray-300 hover:text-primary"
+                  >
                     Search Engine Optimization
                   </Link>
                 </li>
                 <li>
-                  <Link href="#" className="text-gray-300 hover:text-primary">
+                  <Link
+                    href="#"
+                    className="text-gray-300 hover:text-primary"
+                  >
                     E-Commerce
                   </Link>
                 </li>
                 <li>
-                  <Link href="#" className="text-gray-300 hover:text-primary">
+                  <Link
+                    href="#"
+                    className="text-gray-300 hover:text-primary"
+                  >
                     Product design
                   </Link>
                 </li>
@@ -111,7 +130,7 @@ export const Footer = () => {
                     href="tel:+2347042443344"
                     className="text-gray-300 hover:text-primary"
                   >
-                    +254 701 913289
+                     +254 701 913289
                   </a>
                 </li>
 
@@ -123,7 +142,7 @@ export const Footer = () => {
                     href="tel:+2347042443344"
                     className="text-gray-300 hover:text-primary"
                   >
-                    +254 707 420256
+                     +254 707 420256 
                   </a>
                 </li>
 
@@ -135,7 +154,7 @@ export const Footer = () => {
                     href="mailto:admin@aleodev.agency"
                     className="text-gray-300 hover:text-primary"
                   >
-                    info@aleodev.com
+                     info@aleodev.com
                   </a>
                 </li>
               </ul>
