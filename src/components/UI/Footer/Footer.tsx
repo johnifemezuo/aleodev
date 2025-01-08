@@ -3,7 +3,6 @@ import { ArrowRight } from "../../Icons/ArrowRight";
 import { EmailIcon } from "../../Icons/EmailIcon";
 import { PhoneIcon } from "../../Icons/PhoneIcon";
 import { Facebook, Instagram, Linkedin, Twitter } from "lucide-react";
-import Image from "next/image";
 import Link from "next/link";
 
 export const Footer = () => {
@@ -12,15 +11,11 @@ export const Footer = () => {
       <Container>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-12">
           <div className="space-y-6 :w-[400px]">
-            <Link href="/" className="text-3xl font-bold">
-              <Image
+              <img
                 src="/images/logo-white.png"
                 alt=""
-                width={200}
-                height={200}
                 className="w-[140px] lg:w-40"
               />
-            </Link>
 
             <p className="text-gray-300 text-sm w-full">
             Aleodev LTD is a leading software development company headquartered in Kenya, dedicated to delivering world-class technological solutions to businesses and organizations around the globe. With innovation at the core of our operations, we pride ourselves on transforming complex challenges into powerful, user-friendly software that drives growth and success.
