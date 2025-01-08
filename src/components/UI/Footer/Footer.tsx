@@ -11,7 +11,7 @@ export const Footer = () => {
       <Container>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-12">
           <div className="space-y-6 :w-[400px]">
-            <img src="/images/logo-white.png" alt="" className="" />
+            <img src="/images/logo-white.png" alt="Aleodev" className="w-[200px] h-auto" />
 
             <p className="text-gray-300 text-sm w-full">
               Aleodev LTD is a leading software development company
