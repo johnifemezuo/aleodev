@@ -68,9 +68,7 @@ export const HomeAbout = () => {
 
             <ScrollReveal hidden={{ y: 100 }} delay={0.8} visible={{ y: 0 }}>
               <p className="text-base lg:text-xl">
-                As one of the leading web design companies in Kenya, we have
-                helped hundreds of businesses achieve success online. Find out
-                what we can do for you.
+              Aleodev LTD is a leading software development company headquartered in Kenya, dedicated to delivering world-class technological solutions to businesses and organizations around the globe. With innovation at the core of our operations, we pride ourselves on transforming complex challenges into powerful, user-friendly software that drives growth and success.
               </p>
             </ScrollReveal>
           </div>
