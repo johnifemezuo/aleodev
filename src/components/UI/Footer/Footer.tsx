@@ -13,11 +13,9 @@ export const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-12">
           <div className="space-y-6 :w-[400px]">
             <Link href="/" className="text-3xl font-bold">
-              <Image
-                src="/logo-white.png"
-                alt=""
-                width={200}
-                height={200}
+              <img
+                src="/images/logo-white.png"
+                alt="Aleodev logo"
                 className=""
               />
             </Link>
@@ -133,9 +131,22 @@ export const Footer = () => {
                     href="tel:+2347042443344"
                     className="text-gray-300 hover:text-primary"
                   >
-                    +234 70 424 4344
+                     +254 701 913289
                   </a>
                 </li>
+
+                <li className="flex items-center gap-2">
+                  <span className="text-[#B88746]">
+                    <PhoneIcon />
+                  </span>
+                  <a
+                    href="tel:+2347042443344"
+                    className="text-gray-300 hover:text-primary"
+                  >
+                     +254 707 420256 
+                  </a>
+                </li>
+
                 <li className="flex items-center gap-2">
                   <span className="text-[#B88746]">
                     <EmailIcon />
@@ -144,7 +155,7 @@ export const Footer = () => {
                     href="mailto:admin@aleodev.agency"
                     className="text-gray-300 hover:text-primary"
                   >
-                    support@aleodev.agency
+                     info@aleodev.com
                   </a>
                 </li>
               </ul>

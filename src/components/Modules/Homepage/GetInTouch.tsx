@@ -56,12 +56,12 @@ export const GetInTouch = () => {
                 <Button className="bg-black">Book 30 Minutes</Button>
               </div>
               <p className="text-base text-muted-foreground">
-                Got a brief or RFP? Send it to
+                Got a brief or RFP? Send it to {" "}
                 <Link
-                  href="mailto:sales@aloedev.com"
+                  href="mailto:info@aleodev.com"
                   className="font-medium text-amber-700 hover:underline"
                 >
-                  sales@aloedev.com
+                  info@aleodev.com
                 </Link>
               </p>
             </div>
