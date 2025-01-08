@@ -1,8 +1,8 @@
+import { BookCopy, BookOpenCheck, CloudDownload, Globe, Hospital, MonitorCog, PanelsTopLeft, Settings2, SquareMousePointer, WalletCards } from "lucide-react";
 import { ScrollReveal } from "../../Animations/ScrollReveal";
 import { Container } from "../../Container/Container";
 import Title from "../../Elements/Title";
-import { CheckIcon } from "../../Icons/CheckIcon";
-import { Globe, HeadphonesIcon, Paintbrush } from "lucide-react";
+import ServiceCd from "./ServiceCd";
 
 export default function AllServicesSection() {
   return (
@@ -29,79 +29,86 @@ export default function AllServicesSection() {
 
         {/* Services Grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-          <ScrollReveal hidden={{ y: 100 }} delay={0.4} visible={{ y: 0 }}>
-            {/* Website Design Card */}
-            <div className="bg-white rounded-2xl p-8 shadow-sm">
-              <div className="h-12 w-12 bg-[#FFF5EA] rounded-full flex items-center justify-center mb-6">
-                <Globe className="h-6 w-6 text-[#B88746]" />
-              </div>
-              <h3 className="text-2xl font-bold text-[#B88746] mb-6">
-                Website Design & Developement
-              </h3>
-              <ul className="space-y-4">
-                {[
-                  "Web Design and developement",
-                  "Web based Portal",
-                  "E-commerce Solutions",
-                  "Search Engine Optimization",
-                  "Structure & Optimation",
-                ].map((item, index) => (
-                  <li key={index} className="flex items-center gap-3">
-                    <CheckIcon className="h-5 w-5 text-[#B88746]" />
-                    <span className="text-gray-700 lg:text-lg">{item}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </ScrollReveal>
+          <ServiceCd
+            icon={<PanelsTopLeft className="h-6 w-6 text-[#B88746]" />}
+            title="Custome Website"
+            description="We specialize in creating tailor-made software solutions that meet the unique needs of businesses. Whether it's a mobile app, a desktop application, or a complex enterprise system, we work closely with clients to design and develop solutions that enhance efficiency and productivity."
+          />
 
-          <ScrollReveal hidden={{ y: 100 }} delay={0.6} visible={{ y: 0 }}>
-            {/* Creative Design Card */}
-            <div className="bg-[#B88746] rounded-2xl p-8 shadow-sm text-white">
-              <div className="h-12 w-12 bg-white/10 rounded-full flex items-center justify-center mb-6">
-                <Paintbrush className="h-6 w-6 text-white" />
-              </div>
-              <h3 className="text-2xl font-bold mb-6">Creative Design</h3>
-              <ul className="space-y-4">
-                {[
-                  "Logo & Identity Design",
-                  "Corporate Branding",
-                  "User Interface & Experience",
-                  "Power point Presentations",
-                  "Print Communication",
-                ].map((item, index) => (
-                  <li key={index} className="flex items-center gap-3">
-                    <CheckIcon className="h-5 w-5 text-white" />
-                    <span className="lg:text-lg">{item}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </ScrollReveal>
+          <ServiceCd
+            icon={<Globe className="h-6 w-6 text-[#B88746]" />}
+            title="Mobile App Development
+            "
+            description="Aleodev LTD develops user-friendly and robust mobile applications for both Android and iOS platforms. Our team uses the latest frameworks such as Flutter to create seamless, feature-rich apps that offer a smooth user experience and cater to your business goals.
+            "
+          />
 
-          <ScrollReveal hidden={{ y: 100 }} delay={1} visible={{ y: 0 }}>
-            {/* Support Services Card */}
-            <div className="bg-[#1A1A1A] rounded-2xl p-8 shadow-sm text-white">
-              <div className="h-12 w-12 bg-white/10 rounded-full flex items-center justify-center mb-6">
-                <HeadphonesIcon className="h-6 w-6 text-white" />
-              </div>
-              <h3 className="text-2xl font-bold mb-6">Support Services</h3>
-              <ul className="space-y-4">
-                {[
-                  "Corporate Retainership",
-                  "Software Maintainance",
-                  "Basic ERP Solutions",
-                  "Gadgets & Peripherals",
-                  "General Contractors",
-                ].map((item, index) => (
-                  <li key={index} className="flex items-center gap-3">
-                    <CheckIcon className="h-5 w-5 text-white" />
-                    <span className="lg:text-lg">{item}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </ScrollReveal>
+          <ServiceCd
+            icon={<SquareMousePointer className="h-6 w-6 text-[#B88746]" />}
+            title="Web Development
+"
+            description="We build scalable and secure websites and web applications that are designed to meet the specific needs of our clients. From e-commerce platforms to content management systems (CMS), we focus on responsive designs, fast performance, and optimal user engagement.
+"
+          />
+          <ServiceCd
+            icon={<BookCopy className="h-6 w-6 text-[#B88746]" />}
+            title="Fintech Solutions
+"
+            description="Aleodev LTD specializes in the development of financial technology solutions that help businesses in the fintech sector improve their digital payment systems, mobile wallets, online banking, and transaction processing platforms. We also provide integrations with payment gateways like MPESA, PayPal, and others.
+"
+          />
+          <ServiceCd
+            icon={<BookOpenCheck className="h-6 w-6 text-[#B88746]" />}
+            title=" Edutech Solutions
+
+"
+            description="We provide innovative technology solutions for the education sector, ranging from e-learning platforms, virtual classrooms, and learning management systems (LMS) to custom-built apps that enhance the learning experience for students and educators.
+.
+"
+          />
+          <ServiceCd
+            icon={<Hospital className="h-6 w-6 text-[#B88746]" />}
+            title="Healthcare Software Solutions
+
+"
+            description="Aleodev LTD creates software applications for the healthcare industry that improve patient care, streamline medical records management, and enhance operational efficiency. Our solutions include telemedicine apps, appointment scheduling systems, and patient management software.
+
+"
+          />
+          <ServiceCd
+            icon={<MonitorCog className="h-6 w-6 text-[#B88746]" />}
+            title="System Integrations
+
+"
+            description="We offer system integration services that help businesses connect their various software systems, applications, and hardware into a seamless, unified operation. Our team ensures that data flows smoothly across all systems to improve productivity and streamline processes.
+
+"
+          />
+          <ServiceCd
+            icon={<CloudDownload className="h-6 w-6 text-[#B88746]" />}
+            title="Cloud Solutions
+
+
+"
+            description="We design and deploy cloud-based solutions that provide businesses with scalable, secure, and efficient cloud environments. Whether it's migrating existing systems to the cloud or developing new cloud-native applications, we ensure that our solutions meet the highest standards of performance and security.
+
+
+"
+          />
+          <ServiceCd
+            icon={<WalletCards className="h-6 w-6 text-[#B88746]" />}
+            title="Consulting Services
+"
+            description="Aleodev LTD offers expert IT consulting services to businesses looking to improve their technological infrastructure. We provide strategic advice on software selection, system architecture, digital transformation, and adopting new technologies to drive business growth.
+"
+          />
+          <ServiceCd
+            icon={<Settings2 className="h-6 w-6 text-[#B88746]" />}
+            title="Maintenance and Support
+"
+            description="We offer ongoing maintenance and support services to ensure that your software and systems continue to operate efficiently. From troubleshooting and bug fixing to updating software features and security patches, we provide reliable support to keep your systems running smoothly.
+"
+          />
         </div>
       </Container>
     </section>
