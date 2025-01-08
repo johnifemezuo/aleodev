@@ -3,6 +3,7 @@ import { ArrowRight } from "../../Icons/ArrowRight";
 import { EmailIcon } from "../../Icons/EmailIcon";
 import { PhoneIcon } from "../../Icons/PhoneIcon";
 import { Facebook, Instagram, Linkedin, Twitter } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
 
 export const Footer = () => {
@@ -12,9 +13,11 @@ export const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-12">
           <div className="space-y-6 :w-[400px]">
             <Link href="/" className="text-3xl font-bold">
-              <img
+              <Image
                 src="/images/logo-white.png"
-                alt="Aleodev logo"
+                alt=""
+                width={200}
+                height={200}
                 className=""
               />
             </Link>
