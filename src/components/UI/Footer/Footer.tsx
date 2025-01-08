@@ -14,7 +14,7 @@ export const Footer = () => {
           <div className="space-y-6 :w-[400px]">
             <Link href="/" className="text-3xl font-bold">
               <Image
-                src="/images/aleodev-logo.png"
+                src="/images/logo-white.png"
                 alt=""
                 width={200}
                 height={200}
